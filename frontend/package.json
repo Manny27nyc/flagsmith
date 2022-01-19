@@ -57,7 +57,7 @@
     "eslint-plugin-react": "7.11.1",
     "eslint-watch": "4.0.2",
     "extract-text-webpack-plugin": "4.0.0-beta.0",
-    "fbjs": "0.8.17",
+    "fbjs": "2.0.0",
     "file-loader": "2.0.0",
     "flagsmith": "1.1.0",
     "flux-react-dispatcher": "1.2.5",

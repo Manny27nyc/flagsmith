@@ -164,7 +164,7 @@ pyasn1==0.4.8
     #   oauth2client
     #   pyasn1-modules
     #   rsa
-pyjwt==1.7.1
+pyjwt==2.4.0
     # via twilio
 pyotp==2.4.1
     # via django-trench

@@ -67,7 +67,7 @@ django-templated-mail==1.1.1
     # via djoser
 django-trench==0.2.3
     # via -r requirements.in
-django==2.2.24
+django==3.2.15
     # via
     #   -r requirements.in
     #   django-admin-sso
@@ -164,7 +164,7 @@ pyasn1==0.4.8
     #   oauth2client
     #   pyasn1-modules
     #   rsa
-pyjwt==1.7.1
+pyjwt==2.4.0
     # via twilio
 pyotp==2.4.1
     # via django-trench
@@ -236,7 +236,7 @@ six==1.15.0
     #   twilio
 smsapi-client==2.4.3
     # via django-trench
-sqlparse==0.4.1
+sqlparse==0.4.2
     # via
     #   django
     #   django-debug-toolbar
@@ -247,7 +247,7 @@ uritemplate==3.0.1
     #   coreapi
     #   drf-yasg2
     #   google-api-python-client
-urllib3==1.25.11
+urllib3==1.26.5
     # via
     #   botocore
     #   influxdb-client

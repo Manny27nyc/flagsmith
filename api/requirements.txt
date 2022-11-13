@@ -149,7 +149,7 @@ packaging==20.4
     # via
     #   -r requirements.in
     #   drf-yasg2
-protobuf==3.14.0
+protobuf==3.18.3
     # via
     #   google-api-core
     #   googleapis-common-protos
@@ -164,7 +164,7 @@ pyasn1==0.4.8
     #   oauth2client
     #   pyasn1-modules
     #   rsa
-pyjwt==1.7.1
+pyjwt==2.4.0
     # via twilio
 pyotp==2.4.1
     # via django-trench
@@ -247,7 +247,7 @@ uritemplate==3.0.1
     #   coreapi
     #   drf-yasg2
     #   google-api-python-client
-urllib3==1.25.11
+urllib3==1.26.5
     # via
     #   botocore
     #   influxdb-client

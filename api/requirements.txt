@@ -247,7 +247,7 @@ uritemplate==3.0.1
     #   coreapi
     #   drf-yasg2
     #   google-api-python-client
-urllib3==1.25.11
+urllib3==1.26.5
     # via
     #   botocore
     #   influxdb-client
@@ -262,3 +262,4 @@ yubico-client==1.13.0
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability

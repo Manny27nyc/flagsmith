@@ -44,7 +44,7 @@
     "clean-webpack-plugin": "0.1.19",
     "color": "3.1.0",
     "colors": "1.4.0",
-    "copy-webpack-plugin": "4.5.2",
+    "copy-webpack-plugin": "5.0.5",
     "cross-env": "5.2.0",
     "css-loader": "2.1.0",
     "dotenv": "6.2.0",

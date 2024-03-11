@@ -16,7 +16,7 @@ botocore==1.19.20
     #   s3transfer
 cachetools==4.1.1
     # via google-auth
-certifi==2020.11.8
+certifi==2023.7.22
     # via
     #   influxdb-client
     #   requests
@@ -39,7 +39,7 @@ dj-database-url==0.5.0
     # via -r requirements.in
 django-admin-sso==3.0.0
     # via -r requirements.in
-django-axes==5.8.0
+django-axes==5.20.0
     # via -r requirements.in
 django-cors-headers==3.5.0
     # via -r requirements.in
@@ -67,7 +67,7 @@ django-templated-mail==1.1.1
     # via djoser
 django-trench==0.2.3
     # via -r requirements.in
-django==2.2.24
+django==3.2.25
     # via
     #   -r requirements.in
     #   django-admin-sso
@@ -236,7 +236,7 @@ six==1.15.0
     #   twilio
 smsapi-client==2.4.3
     # via django-trench
-sqlparse==0.4.1
+sqlparse==0.4.4
     # via
     #   django
     #   django-debug-toolbar
@@ -247,7 +247,7 @@ uritemplate==3.0.1
     #   coreapi
     #   drf-yasg2
     #   google-api-python-client
-urllib3==1.25.11
+urllib3==1.26.18
     # via
     #   botocore
     #   influxdb-client
@@ -262,3 +262,4 @@ yubico-client==1.13.0
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
